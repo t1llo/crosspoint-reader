@@ -126,8 +126,6 @@ Minor adjustments may be required for Windows.
 
 ## Internals
 
-# test fork
-
 CrossPoint Reader is pretty aggressive about caching data down to the SD card to minimise RAM usage. The ESP32-C3 only
 has ~380KB of usable RAM, so we have to be careful. A lot of the decisions made in the design of the firmware were based
 on this constraint.
